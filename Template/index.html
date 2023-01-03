@@ -28,8 +28,9 @@
 					<h4>{<em><span>\ Blaq </span> </em> Blog }</h4>
 			</div>
 			<div class="Search">
-				<form>
-					<input class="bar" type="text" name="q" placeholder="Search by title">
+				<form method="POST">
+					{% csrf_token %}
+					<input class="bar" type="text" name="search_qurey" placeholder="Search by title">
 					<input class="btn" type="submit" value="Search">
 					<span class="material-symbols-outlined">search</span>
 				</form>
@@ -133,7 +134,7 @@
 			</form>
 		</div>
 	</div>
-	<div style=" background-color: #E0A96D; display: grid; place-items:center color: black;" class="autor">
+	<div style=" background-color: #E0A96D; display: grid; place-items:center; color:black;" class="autor">
 		<p>copywrite<span class="material-symbols-outlined">copyright</span>@2022 all right reserved || <em style=" background-color: #E0A96D;">Blessman</em></p>
 	</div>
 </footer> 

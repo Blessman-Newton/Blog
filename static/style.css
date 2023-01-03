@@ -307,9 +307,6 @@ top: 6px;
 left: 82%;
 padding: 0px 0px 0px 0px;
 }
-ul li{
-
-}
 
 .brain{
 display: none;
@@ -365,7 +362,7 @@ padding: 0 6px;
 background-color: white;
 }
 .Search span{
-background-color: ;
+
 color: #101820FF;
 border-radius: 50px;
 height: 40px;
@@ -417,45 +414,10 @@ border: 3px solid white ;
 .btn{
 	display: none;
 }
-.sec{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	padding: 50px;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
-
-	
-}
 
 
-.input{
-	border-left: none;
-	border-bottom: none;
-	border-right: none;
-	border-top: none;
-	outline: none;
-	border-radius: 5px;
-	width: 300px;
-	height: 20px;
-	line-height: 6px;
-	padding: 0 6px;
-	font-size: 11px;
-	z-index: 1;
-}
-label{
-	color:white ;
-	left: -95px;
-}
-.button{
-	background: blue;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	display: block;
-	width: 300px;
-}
+
+
+
+
 }

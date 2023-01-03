@@ -1,0 +1,1069 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "six",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_site",
+        "importPath": "django.contrib.sites.shortcuts",
+        "description": "django.contrib.sites.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.contrib.sites.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_text",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0001_initial",
+        "description": "blog.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "blog.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0002_alter_post_body",
+        "description": "blog.migrations.0002_alter_post_body",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='body',\n            field=models.TextField(max_length=100000),\n        ),",
+        "detail": "blog.migrations.0002_alter_post_body",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0003_post_img",
+        "description": "blog.migrations.0003_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0002_alter_post_body'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(default=True, upload_to=''),\n        ),",
+        "detail": "blog.migrations.0003_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0004_alter_post_img",
+        "description": "blog.migrations.0004_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0003_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(upload_to=''),\n        ),",
+        "detail": "blog.migrations.0004_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0005_rename_date_posted_post_pub_date_remove_post_body_and_more",
+        "description": "blog.migrations.0005_rename_date_posted_post_pub_date_remove_post_body_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0004_alter_post_img'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='post',\n            old_name='date_posted',\n            new_name='pub_date',\n        ),",
+        "detail": "blog.migrations.0005_rename_date_posted_post_pub_date_remove_post_body_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0006_alter_post_body_text_alter_post_pub_date",
+        "description": "blog.migrations.0006_alter_post_body_text_alter_post_pub_date",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0005_rename_date_posted_post_pub_date_remove_post_body_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='body_text',\n            field=models.TextField(max_length=100, null=True),\n        ),",
+        "detail": "blog.migrations.0006_alter_post_body_text_alter_post_pub_date",
+        "documentation": {}
+    },
+    {
+        "label": "BlogConfig",
+        "kind": 6,
+        "importPath": "blog.apps",
+        "description": "blog.apps",
+        "peekOfCode": "class BlogConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'blog'",
+        "detail": "blog.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AddPost",
+        "kind": 6,
+        "importPath": "blog.form",
+        "description": "blog.form",
+        "peekOfCode": "class AddPost(forms.ModelForm):\n    \"\"\"Form definition for MODELNAME.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for MODELNAMEform.\"\"\"\n        model = Post\n        fields = ('headline','body_text')",
+        "detail": "blog.form",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "class Post(models.Model):\n\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now, blank=True)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tusername",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now, blank=True)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\theadline",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now, blank=True)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tbody_text",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now, blank=True)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tpub_date",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\tpub_date = models.DateTimeField(default=datetime.now, blank=True)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tmod_date",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\timg",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tnumber_of_comments",
+        "kind": 5,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blog.urls",
+        "description": "blog.urls",
+        "peekOfCode": "urlpatterns = [\n\tpath('',views.index, name='index'),\n\tpath('login/', views.login, name='login'),\n\tpath('register/', views.register, name='register'),\n\tpath('search/', views.search, name='search'),\n\tpath('update/<int:pk>', views.update, name='update'),\n\tpath('add_post/', views.add_post, name='add_post'),\n\tpath('post/<int:pk>', views.post, name='post'),\n\tpath('delete/<int:pk>', views.delete, name='delete'),\n]",
+        "detail": "blog.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def index(request):\n\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        fname = request.POST['fierstname']\n        lname = request.POST['lastname']",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        fname = request.POST['fierstname']\n        lname = request.POST['lastname']\n        username = request['username']\n        mname = request.POST['middlename']\n        email = request.POST['email']",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def register(request):\n    if request.method == \"POST\":\n        fname = request.POST['fierstname']\n        lname = request.POST['lastname']\n        username = request['username']\n        mname = request.POST['middlename']\n        email = request.POST['email']\n        password1 = request.POST['password1']\n        password2 = request.POST['password2']\n        if password1 == password2:",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def login(request):\n    if request.method == \"POST\":\n        email = request.POST['email']\n        password1 = request.POST['password1']\n        user = authenticate(request, email=email, password1=password1)\n        if user is not None:\n            login(request,user)\n            redirect('index')\n        else:\n            message.info('Invaild Credentials')",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_post",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        add_new_post = AddPost(request.POST)\n        if add_new_post.is_vaild():\n            add_new_post.save()\n    return render(request, 'add_post.html', {'post_form':post_form, 'add_new_post':add_new_post})\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)\n    update_post = AddPost(instance= call_post)",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def update(request, pk):\n    call_post = Post.objects.get(id=pk)\n    update_post = AddPost(instance= call_post)\n    if request.mehtod == 'POST':\n        update_post = AddPost(instance=call_post)\n        if update_post.is_valid():\n            update_post.save()\n            return redirect('index')\n    return render(request, 'update.html', {'call_post':call_post, 'update_post':update_post})\ndef delete(request, pk):",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def delete(request, pk):\n    if request.method == 'POST':\n        delete_post = Post.objects.get(id=pk)\n        delete_post.delete()\n        return HttpResponseRedirect(reversed('add_post'))\ndef logout(request):\n    if request.method == 'POST':\n        logout(request)\n        return HttpResponseRedirect(reserve('login'))\ndef search(request):",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def logout(request):\n    if request.method == 'POST':\n        logout(request)\n        return HttpResponseRedirect(reserve('login'))\ndef search(request):\n    if request.method == 'POST':\n        search_qurey = request.POST['search_query']\n        if search_qurey:\n            search_post = Post.objects.filter(headline__icontains=search_qurey)\n            return render(request, 'search.html', {'search_qurey':search_qurey, 'search_post':search_post})",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def search(request):\n    if request.method == 'POST':\n        search_qurey = request.POST['search_query']\n        if search_qurey:\n            search_post = Post.objects.filter(headline__icontains=search_qurey)\n            return render(request, 'search.html', {'search_qurey':search_qurey, 'search_post':search_post})\n    return render(request, 'search.html')",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tposts",
+        "kind": 5,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        fname = request.POST['fierstname']\n        lname = request.POST['lastname']\n        username = request['username']",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tblog",
+        "kind": 5,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        fname = request.POST['fierstname']\n        lname = request.POST['lastname']\n        username = request['username']\n        mname = request.POST['middlename']\n        email = request.POST['email']\n        password1 = request.POST['password1']",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Personal_blog.asgi",
+        "description": "Personal_blog.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "Personal_blog.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-&#*em7i=hfxhbaq$7-g0yqctcp9+(#wn-&i6vc%**t+2q35nx#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-&#*em7i=hfxhbaq$7-g0yqctcp9+(#wn-&i6vc%**t+2q35nx#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog',",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog',\n]\nMIDDLEWARE = [",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Personal_blog.urls'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Personal_blog.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR,'Template'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR,'Template'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Personal_blog.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "STATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_URL",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "IMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_ROOT",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "IMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Personal_blog.urls",
+        "description": "Personal_blog.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('blog.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "Personal_blog.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Personal_blog.wsgi",
+        "description": "Personal_blog.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Personal_blog.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "TokenGenerator",
+        "kind": 6,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "class TokenGenerator(PasswordResetTokenGenerator):  \n    def _make_hash_value(self, user, timestamp):  \n        return (  \n            six.text_type(user.pk) + six.text_type(timestamp) +  \n            six.text_type(user.is_active)  \n        )  \naccount_activation_token = TokenGenerator()\nWe used the PasswordTokenGenerator class that is used to reset the password. In the above code, we generated the unique token for confirmation.\nCreate Registration Form\nDjango provides the built-in UserCreationForm which is an excellent class to create form. We create a forms.py file in the app and import the UserCreationForm class. Let's understand the following code.",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "SignupForm",
+        "kind": 6,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "class SignupForm(UserCreationForm):  \n    email = forms.EmailField(max_length=200, help_text='Required')  \n    class Meta:  \n        model = User  \n        fields = ('username', 'email', 'password1', 'password2')\nIn the above code, we imported the UserCreationForm and built-in User. Then we created a SignupForm including extra field email in SignupForm.\nview.py\nfrom django.http import HttpResponse  \nfrom django.shortcuts import render, redirect  \nfrom django.contrib.auth import login, authenticate  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 2,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "def signup(request):  \n    if request.method == 'POST':  \n        form = SignupForm(request.POST)  \n        if form.is_valid():  \n            # save form in the memory not in database  \n            user = form.save(commit=False)  \n            user.is_active = False  \n            user.save()  \n            # to get the domain of the current site  \n            current_site = get_current_site(request)  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "activate",
+        "kind": 2,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "def activate(request, uidb64, token):  \n    User = get_user_model()  \n    try:  \n        uid = force_text(urlsafe_base64_decode(uidb64))  \n        user = User.objects.get(pk=uid)  \n    except(TypeError, ValueError, OverflowError, User.DoesNotExist):  \n        user = None  \n    if user is not None and account_activation_token.check_token(user, token):  \n        user.is_active = True  \n        user.save()  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "EMAIL_USE_TLS = True  \nEMAIL_HOST = 'smtp.gmail.com'  \nEMAIL_HOST_USER = 'youremail@gmail.com'  \nEMAIL_HOST_PASSWORD = 'yourpassword'  \nEMAIL_PORT = 587\nWe used the email-id along with the password and gmail SMTP host server. You can use the other SMTP server as well.\nGenerate Token\nWe need to create the token that will be used in email confirmation URL. Create the token.py file in the token and add the below code.\nfrom django.contrib.auth.tokens import PasswordResetTokenGenerator  \nfrom django.utils import six  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'  \nEMAIL_HOST_USER = 'youremail@gmail.com'  \nEMAIL_HOST_PASSWORD = 'yourpassword'  \nEMAIL_PORT = 587\nWe used the email-id along with the password and gmail SMTP host server. You can use the other SMTP server as well.\nGenerate Token\nWe need to create the token that will be used in email confirmation URL. Create the token.py file in the token and add the below code.\nfrom django.contrib.auth.tokens import PasswordResetTokenGenerator  \nfrom django.utils import six  \nclass TokenGenerator(PasswordResetTokenGenerator):  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "EMAIL_HOST_USER = 'youremail@gmail.com'  \nEMAIL_HOST_PASSWORD = 'yourpassword'  \nEMAIL_PORT = 587\nWe used the email-id along with the password and gmail SMTP host server. You can use the other SMTP server as well.\nGenerate Token\nWe need to create the token that will be used in email confirmation URL. Create the token.py file in the token and add the below code.\nfrom django.contrib.auth.tokens import PasswordResetTokenGenerator  \nfrom django.utils import six  \nclass TokenGenerator(PasswordResetTokenGenerator):  \n    def _make_hash_value(self, user, timestamp):  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'yourpassword'  \nEMAIL_PORT = 587\nWe used the email-id along with the password and gmail SMTP host server. You can use the other SMTP server as well.\nGenerate Token\nWe need to create the token that will be used in email confirmation URL. Create the token.py file in the token and add the below code.\nfrom django.contrib.auth.tokens import PasswordResetTokenGenerator  \nfrom django.utils import six  \nclass TokenGenerator(PasswordResetTokenGenerator):  \n    def _make_hash_value(self, user, timestamp):  \n        return (  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "EMAIL_PORT = 587\nWe used the email-id along with the password and gmail SMTP host server. You can use the other SMTP server as well.\nGenerate Token\nWe need to create the token that will be used in email confirmation URL. Create the token.py file in the token and add the below code.\nfrom django.contrib.auth.tokens import PasswordResetTokenGenerator  \nfrom django.utils import six  \nclass TokenGenerator(PasswordResetTokenGenerator):  \n    def _make_hash_value(self, user, timestamp):  \n        return (  \n            six.text_type(user.pk) + six.text_type(timestamp) +  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "account_activation_token",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "account_activation_token = TokenGenerator()\nWe used the PasswordTokenGenerator class that is used to reset the password. In the above code, we generated the unique token for confirmation.\nCreate Registration Form\nDjango provides the built-in UserCreationForm which is an excellent class to create form. We create a forms.py file in the app and import the UserCreationForm class. Let's understand the following code.\n  forms.py\nfrom django import forms  \nfrom django.contrib.auth.forms import UserCreationForm  \nfrom django.contrib.auth.models import User  \nclass SignupForm(UserCreationForm):  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Template.email.login",
+        "description": "Template.email.login",
+        "peekOfCode": "urlpatterns = [  \n    path('', home, name = 'home'),  \n    path('form/', index, name = 'index'),  \n    path('activate/(?P<uidb64>[0-9A-Za-z_\\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/',  \n        activate, name='activate'),  \n]  \nCreate a sign up form in template/signup.html.\n{% extends 'base.html' %}  \n{% block content %}  \n<div class = \"container\">  ",
+        "detail": "Template.email.login",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Personal_blog.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

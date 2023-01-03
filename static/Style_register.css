@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(81, 81, 81, 0.491);
+}
+form{
+    position: absolute;
+    top: 10%;
+    display: inline;
+    justify-items: space-around;
+}
+label{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+.input, .button{
+    width: 300px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+.button{
+    background-color: blue;
+    color: aliceblue;
+}
