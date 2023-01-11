@@ -11,3 +11,4 @@ class AddPost(forms.ModelForm):
         model = Post
         fields = ('headline','body_text')
 
+    
