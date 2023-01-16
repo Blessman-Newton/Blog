@@ -20,28 +20,24 @@ def post(request, pk):
 
 def register(request):
     if request.method == "POST":
-        fname = request.POST['fierstname']
-        lname = request.POST['lastname']
-        username = request['username']
-        mname = request.POST['middlename']
+        username = request.POST['username']
         email = request.POST['email']
-        password1 = request.POST['password1']
+        password = request.POST['password']
         password2 = request.POST['password2']
-        if password1 == password2:
-            if User.objects.filter(request,email=email).exists():
+        if password == password2:
+            if User.objects.filter(email=email).exists():
                 message.info("Email already exist")
-                redirect('login')
-            elif User.objects.filter(request,username=username).exists():
-                message.info("User already exist")
-                redirect('login')
+                return redirect('login')
+            elif User.objects.filter(username=username).exists():
+                messagse.info(request, "User already exist")
+                return redirect('login')
             else:
-                user = User.objects.create_user(fname=firstname, lname=lastname, mname=middlename,
-                                                username=username, email=email, password1=password1)
+                user = User.objects.create_user(username=username, email=email, password=password)
                 user.save()
-                redirect('login')
+                return redirect('login')
         else:
-            message.info("Password do not match")
-            redirect('register')
+            messages.info("Password do not match")
+            return redirect('register')
     return render(request,'register.html')
 
 
@@ -49,16 +45,18 @@ def register(request):
 def login(request):
     if request.method == "POST":
         email = request.POST['email']
-        password1 = request.POST['password1']
+        password = request.POST['password']
         
-        user = authenticate(request, email=email, password1=password1)
+        user = auth.authenticate(request, email=email, password=password)
+        
         if user is not None:
-            login(request,user)
-            redirect('index')
+            auth.login(request,user)
+            return redirect('index')
         else:
-            message.info('Invaild Credentials')
-            redirect('login')
-    return render(request, 'login.html', {'email':email, 'password':password1})
+            messages.info(request, "Invaild Credentials")
+            return redirect('login')
+        
+    return render(request, 'login.html')
 
 
 

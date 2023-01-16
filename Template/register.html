@@ -18,21 +18,17 @@
 <body>
 	<form method="POST"> 
 		{% csrf_token %}
-		<label>First Name</label>
-		<span id="symbols" class="material-symbols-outlined">person</span><input class="input" type="text" name="firstname"><br>
-		<label>Last Name</label>
-		<span id="symbols" class="material-symbols-outlined">mail</span><input class="input"type="text" name="lastname" ><br>
-		<label>Middle Name</label>
-		<span id="symbols" class="material-symbols-outlined">mail</span><input class="input"type="text" name="middlename" ><br>
+		<label>Full Name</label>
+		<span id="symbols" class="material-symbols-outlined">person</span><input class="input" type="text" name="username"><br>
 		<label>Email</label>
 		<span id="symbols" class="material-symbols-outlined">mail</span><input class="input"type="" name="email"><br>
 		<label>Password</label>
-		<span id="symbols" class="material-symbols-outlined">lock</span><input class="input"type="password" name="password1"><br>
+		<span id="symbols" class="material-symbols-outlined">lock</span><input class="input"type="password" name="password"><br>
 		<label>Confirm Password</label>
 		<span id="symbols" class="material-symbols-outlined">lock</span><input class="input"type="password" name="password2"><br><br>
 		<input class="button" type="submit" value="Register">
 	</form>
-	<span class="signin-res">already have an account? <a href="#">Sign in</a></span>
+	<span class="signin-res">already have an account? <a href="{% url 'login' %}">Sign in</a></span>
 	
 	 
 
