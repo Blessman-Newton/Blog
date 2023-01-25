@@ -10,20 +10,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20,100,1" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="{% static 'Style_register.css' %}">
+   
     <title>Login</title>
     <style>
+
+        form {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sign-up {
+  text-align: center;
+}
+
     </style>
 </head>
 <body>
-    <form method="POST">
-        {% csrf_token %}
-        <label for="">Email</label>
-        <span id="symbols" class="material-symbols-outlined">mail</span><input class="input" type="text" name="email">
-        <label for="">Password</label>
-        <span id="symbols" class="material-symbols-outlined">lock</span><input class="input" type="password" name="password">
-        <input class="button" type="submit" value="Login">
-    </form>
-    
+    <div class="form">
+        <form method="POST">
+            {% csrf_token %}
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Login">
+            
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            
+            <div class="sign-up">
+              Don't have an account? <a href="{% url 'register' %}">Sign Up</a>
+            </div>
+          </form>
+            
+    </div>
 </body>
 </html>

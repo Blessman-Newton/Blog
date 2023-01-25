@@ -2,16 +2,19 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User , auth
 from django.http import HttpResponseRedirect
+from django.contrib.auth.decorators import login_required
 from .models import Post
 from .form import AddPost
 from django.contrib import messages
 # Create your views here.
 
+
+
 def index(request):
 	posts = Post.objects.all()
 	return render(request, 'index.html', {'posts':posts})
 
-
+@login_required(login_url='/login/')
 def post(request, pk):
 	blog = Post.objects.get(id=pk)
 	return render(request, 'post.html', {'blog':blog})
@@ -44,32 +47,32 @@ def register(request):
 
 def login(request):
     if request.method == "POST":
-        email = request.POST['email']
+        username = request.POST['username']
         password = request.POST['password']
         
-        user = auth.authenticate(request, email=email, password=password)
+        user = auth.authenticate(username=username, password=password)
         
         if user is not None:
-            auth.login(request,user)
+            auth.login(request, user)
             return redirect('index')
         else:
             messages.info(request, "Invaild Credentials")
-            return redirect('login')
+            return redirect('register')
         
     return render(request, 'login.html')
 
 
-
+@login_required(login_url='/login/')
 def add_post(request):
     post_form = AddPost()
     if request.method == 'POST':
-        add_new_post = AddPost(request.POST)
-        if add_new_post.is_vaild():
-            add_new_post.save()
-    return render(request, 'add_post.html', {'post_form':post_form, 'add_new_post':add_new_post})
+        post_form = AddPost(request.POST)
+        if post_form.is_vaild():
+            post_form.save()
+    return render(request, 'add_post.html', {'post_form':post_form})
 
 
-
+@login_required(login_url='/login/')
 def update(request, pk):
     call_post = Post.objects.get(id=pk)
     update_post = AddPost(instance= call_post)
@@ -81,7 +84,7 @@ def update(request, pk):
     return render(request, 'update.html', {'call_post':call_post, 'update_post':update_post})
 
 
-
+@login_required(login_url='/login/')
 def delete(request, pk):
     if request.method == 'POST':
         delete_post = Post.objects.get(id=pk)
@@ -91,11 +94,11 @@ def delete(request, pk):
     
 
 def logout(request):
-    if request.method == 'POST':
-        logout(request)
-        return HttpResponseRedirect(reserve('login'))
+	if request.method == 'POST':
+		logout(request)
+		return HttpResponseRedirect(reverse('login'))
     
-
+@login_required(login_url='/login/')
 def search(request):
     if request.method == 'POST':
         search_qurey = request.POST['search_query']

@@ -418,6 +418,14 @@
         "documentation": {}
     },
     {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -723,7 +731,7 @@
         "kind": 5,
         "importPath": "blog.urls",
         "description": "blog.urls",
-        "peekOfCode": "urlpatterns = [\n\tpath('',views.index, name='index'),\n\tpath('login/', views.login, name='login'),\n\tpath('register/', views.register, name='register'),\n\tpath('search/', views.search, name='search'),\n\tpath('update/<int:pk>', views.update, name='update'),\n\tpath('add_post/', views.add_post, name='add_post'),\n\tpath('post/<int:pk>', views.post, name='post'),\n\tpath('delete/<int:pk>', views.delete, name='delete'),\n]",
+        "peekOfCode": "urlpatterns = [\n\tpath('',views.index, name='index'),\n\tpath('login/', views.login, name='login'),\n\tpath('logout/', views.logout, name='logout'),\n\tpath('register/', views.register, name='register'),\n\tpath('search/', views.search, name='search'),\n\tpath('update/<int:pk>', views.update, name='update'),\n\tpath('add_post/', views.add_post, name='add_post'),\n\tpath('post/<int:pk>', views.post, name='post'),\n\tpath('delete/<int:pk>', views.delete, name='delete'),",
         "detail": "blog.urls",
         "documentation": {}
     },
@@ -732,7 +740,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def index(request):\n\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']",
+        "peekOfCode": "def index(request):\n\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\n@login_required(login_url='/login/')\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -759,7 +767,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def login(request):\n    if request.method == \"POST\":\n        email = request.POST['email']\n        password = request.POST['password']\n        user = auth.authenticate(request, email=email, password=password)\n        if user is not None:\n            auth.login(request,user)\n            return redirect('index')\n        else:\n            messages.info(request, \"Invaild Credentials\")",
+        "peekOfCode": "def login(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        password = request.POST['password']\n        user = auth.authenticate(username=username, password=password)\n        if user is not None:\n            auth.login(request, user)\n            return redirect('index')\n        else:\n            messages.info(request, \"Invaild Credentials\")",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -768,7 +776,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        add_new_post = AddPost(request.POST)\n        if add_new_post.is_vaild():\n            add_new_post.save()\n    return render(request, 'add_post.html', {'post_form':post_form, 'add_new_post':add_new_post})\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)\n    update_post = AddPost(instance= call_post)",
+        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        post_form = AddPost(request.POST)\n        if post_form.is_vaild():\n            post_form.save()\n    return render(request, 'add_post.html', {'post_form':post_form})\n@login_required(login_url='/login/')\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -777,7 +785,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def update(request, pk):\n    call_post = Post.objects.get(id=pk)\n    update_post = AddPost(instance= call_post)\n    if request.mehtod == 'POST':\n        update_post = AddPost(instance=call_post)\n        if update_post.is_valid():\n            update_post.save()\n            return redirect('index')\n    return render(request, 'update.html', {'call_post':call_post, 'update_post':update_post})\ndef delete(request, pk):",
+        "peekOfCode": "def update(request, pk):\n    call_post = Post.objects.get(id=pk)\n    update_post = AddPost(instance= call_post)\n    if request.mehtod == 'POST':\n        update_post = AddPost(instance=call_post)\n        if update_post.is_valid():\n            update_post.save()\n            return redirect('index')\n    return render(request, 'update.html', {'call_post':call_post, 'update_post':update_post})\n@login_required(login_url='/login/')",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -786,7 +794,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def delete(request, pk):\n    if request.method == 'POST':\n        delete_post = Post.objects.get(id=pk)\n        delete_post.delete()\n        return HttpResponseRedirect(reversed('add_post'))\ndef logout(request):\n    if request.method == 'POST':\n        logout(request)\n        return HttpResponseRedirect(reserve('login'))\ndef search(request):",
+        "peekOfCode": "def delete(request, pk):\n    if request.method == 'POST':\n        delete_post = Post.objects.get(id=pk)\n        delete_post.delete()\n        return HttpResponseRedirect(reversed('add_post'))\ndef logout(request):\n\tif request.method == 'POST':\n\t\tlogout(request)\n\t\treturn HttpResponseRedirect(reverse('login'))\n@login_required(login_url='/login/')",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -795,7 +803,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def logout(request):\n    if request.method == 'POST':\n        logout(request)\n        return HttpResponseRedirect(reserve('login'))\ndef search(request):\n    if request.method == 'POST':\n        search_qurey = request.POST['search_query']\n        if search_qurey:\n            search_post = Post.objects.filter(headline__icontains=search_qurey)\n            return render(request, 'search.html', {'search_qurey':search_qurey, 'search_post':search_post})",
+        "peekOfCode": "def logout(request):\n\tif request.method == 'POST':\n\t\tlogout(request)\n\t\treturn HttpResponseRedirect(reverse('login'))\n@login_required(login_url='/login/')\ndef search(request):\n    if request.method == 'POST':\n        search_qurey = request.POST['search_query']\n        if search_qurey:\n            search_post = Post.objects.filter(headline__icontains=search_qurey)",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -813,7 +821,7 @@
         "kind": 5,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']\n        password = request.POST['password']",
+        "peekOfCode": "\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\n@login_required(login_url='/login/')\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']",
         "detail": "blog.views",
         "documentation": {}
     },

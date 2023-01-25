@@ -42,6 +42,10 @@
 					<li><a href="">SignUp</a></li>
 					<li><a href="">Add Post</a></li>
 				</ul>
+				<form class="POST" action="/logout/">
+					{% csrf_token %}
+					<input type="submit" class="btn btn-danger" value="Logout">
+				</form>
 				</div>
 		</nav>
 
