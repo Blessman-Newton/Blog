@@ -74,7 +74,7 @@ input[type="submit"]:hover {
             
             <input type="submit" value="Login">
             
-            <a href="#" class="forgot-password">Forgot Password?</a>
+            <a href="{% url 'password_reset' %}" class="forgot-password">Forgot Password?</a>
             
             <div class="sign-up">
               Don't have an account? <a href="{% url 'register' %}">Sign Up</a>

@@ -354,6 +354,14 @@
         "documentation": {}
     },
     {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "login",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
@@ -956,7 +964,7 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -965,7 +973,7 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------\n# email settings",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -974,7 +982,7 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------\n# email settings\n#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -983,7 +991,7 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------\n# email settings\n#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -992,7 +1000,7 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "STATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATICFILES_DIRS = [ os.path.join(BASE_DIR,'static')]\nIMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------\n# email settings\n#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False\nEMAIL_PORT = 587",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -1001,7 +1009,7 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "IMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "IMAGE_URL = '/images/'\nIMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------\n# email settings\n#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -1010,7 +1018,70 @@
         "kind": 5,
         "importPath": "Personal_blog.settings",
         "description": "Personal_blog.settings",
-        "peekOfCode": "IMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "IMAGE_ROOT = os.path.join(BASE_DIR, 'static/images')\n# ---------SMTP Configuration-----------------\n# email settings\n#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\n#EMAIL_USE_SSL = False\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#EMAIL_USE_SSL",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "#EMAIL_USE_SSL = False\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'asieduceci.coun@gmail.com'\nEMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Personal_blog.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "Personal_blog.settings",
+        "description": "Personal_blog.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'qpynletooydomjty'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "Personal_blog.settings",
         "documentation": {}
     },
@@ -1028,7 +1099,7 @@
         "kind": 5,
         "importPath": "Personal_blog.urls",
         "description": "Personal_blog.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('blog.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('blog.urls')),\n    #--------password reset URLS config--------\n    path('reset_password/', auth_views.PasswordResetView.as_view(template_name='password_reset.html'), \n      name=\"password_reset\"),\n    path('reset_password_sent/', auth_views.PasswordResetDoneView.as_view(template_name='password_reset_done.html'), \n      name=\"password_reset_done\"),\n\tpath('reset_password_confirm/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(template_name='password_reset_confirm.html'), \n      name=\"password_reset_confirm\"),",
         "detail": "Personal_blog.urls",
         "documentation": {}
     },
