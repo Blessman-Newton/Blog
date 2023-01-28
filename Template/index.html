@@ -38,9 +38,9 @@
 				<div class="navigation">
 					<ul class="ul">
 					<li><a href=""><i class="fa-regular fa-magnifying-glass">Blog</i></a></li>
-					<li><a href="">Login</a></li>
-					<li><a href="">SignUp</a></li>
-					<li><a href="">Add Post</a></li>
+					<li><a href="{% url 'login' %}">Login</a></li>
+					<li><a href="{% url 'register' %}">SignUp</a></li>
+					<li><a href="{% url 'add_post' %}">Add Post</a></li>
 				</ul>
 				<form class="POST" action="/logout/">
 					{% csrf_token %}
@@ -75,13 +75,13 @@
 				<img class="post-img" src="{{post.img.url}}">
 				<div class="user"> 
 					<img class="profile" src="{% static 'images/brain.png' %}">
-					<h2><a href="#">{{post.title}}</a></h2>
+					<h2><a href="#">{{post.headline}}</a></h2>
 				</div>
 				<div class="title">
-					<h3>@{{post.username}} - {{post.date_posted}}</h3>
+					<h3>@{{post.username}} - {{post.pub_date}}</h3>
 				</div>
 				<div class="body" style="padding: 8px;">
-					<a href="/post/{{post.id}}">{{post.body|truncatewords:20}}</a>
+					<a href="/post/{{post.id}}">{{post.body_text|truncatewords:20}}</a>
 				</div>
 			</div>
 		{% endfor %}

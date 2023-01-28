@@ -1,4 +1,4 @@
-from .models import Post
+from .models import *
 from django import forms
  
  
@@ -10,5 +10,9 @@ class AddPost(forms.ModelForm):
 
         model = Post
         fields = ('headline','body_text')
+        widgets = {
+            'body_text': forms.Textarea(attrs={"placeholder":'Post Here',
+                                               'style':'width: 100vh; height: 50vh'})
+        }
 
     

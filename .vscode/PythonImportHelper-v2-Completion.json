@@ -658,7 +658,7 @@
         "kind": 6,
         "importPath": "blog.form",
         "description": "blog.form",
-        "peekOfCode": "class AddPost(forms.ModelForm):\n    \"\"\"Form definition for MODELNAME.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for MODELNAMEform.\"\"\"\n        model = Post\n        fields = ('headline','body_text')",
+        "peekOfCode": "class AddPost(forms.ModelForm):\n    \"\"\"Form definition for MODELNAME.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for MODELNAMEform.\"\"\"\n        model = Post\n        fields = ('headline','body_text')\n        widgets = {\n            'body_text': forms.Textarea(attrs={\"placeholder\":'Post Here',\n                                               'style':'width: 100vh; height: 50vh'})\n        }",
         "detail": "blog.form",
         "documentation": {}
     },
@@ -784,7 +784,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        post_form = AddPost(request.POST)\n        if post_form.is_vaild():\n            post_form.save()\n    return render(request, 'add_post.html', {'post_form':post_form})\n@login_required(login_url='/login/')\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)",
+        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        post_form = AddPost(request.POST)\n        if post_form.is_valid():\n            post_form.save()\n    return render(request, 'add_post.html', {'post_form':post_form})\n@login_required(login_url='/login/')\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)",
         "detail": "blog.views",
         "documentation": {}
     },

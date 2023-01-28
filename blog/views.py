@@ -63,12 +63,12 @@ def login(request):
     return render(request, 'login.html')
 
 
-@login_required(login_url='/login/')
+#@login_required(login_url='/login/')
 def add_post(request):
     post_form = AddPost()
     if request.method == 'POST':
         post_form = AddPost(request.POST)
-        if post_form.is_vaild():
+        if post_form.is_valid():
             post_form.save()
     return render(request, 'add_post.html', {'post_form':post_form})
 
