@@ -185,6 +185,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -645,6 +661,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0010_alter_post_body_text",
+        "description": "blog.migrations.0010_alter_post_body_text",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0009_remove_post_fullname_post_username_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='body_text',\n            field=models.TextField(max_length=10000, null=True),\n        ),",
+        "detail": "blog.migrations.0010_alter_post_body_text",
+        "documentation": {}
+    },
+    {
         "label": "BlogConfig",
         "kind": 6,
         "importPath": "blog.apps",
@@ -667,7 +692,7 @@
         "kind": 6,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "class Post(models.Model):\n\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "class Post(models.Model): \n\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -676,7 +701,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -685,7 +710,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -694,7 +719,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tbody_text = models.TextField(max_length=100, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -703,7 +728,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -712,7 +737,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -721,7 +746,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -730,7 +755,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline2",
+        "peekOfCode": "\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },

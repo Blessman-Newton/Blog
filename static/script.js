@@ -1,3 +1,25 @@
+const dark_mood = document.getElementById('dark-mode');
+const body = document.querySelector('.header_main');
+const text = document.querySelector('.header');
+
+dark_mood.addEventListener('click', function(){
+	this.classList.toggle("bi-moon");
+	if(this.classList.toggle("bi-brightness-high-fill")){
+		body.style.background = 'white';
+		text.style.color = 'green';
+		body.style.transition = '2s';
+		text.style.transition = '2s';
+		
+	}else{
+		body.style.background = '#101820FF';
+		text.style.color = 'pink';
+		body.style.transition = '2s';
+		text.style.transition = '2s';
+		
+	}
+})
+
+
 function toggleBar(){
 	let bar = document.querySelector('.navigation ul');
 	let head = document.querySelector('.header .header_content h4');
@@ -16,7 +38,9 @@ function toggleBar(){
 }
 function bars(bar) {
 	bar.classList.toggle('&#9747');
+	
 }
+
 
 let calcScrollValue = () => {
 	let scrollProgress = document.getElementById('progress');

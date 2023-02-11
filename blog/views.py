@@ -63,7 +63,7 @@ def login(request):
     return render(request, 'login.html')
 
 
-#@login_required(login_url='/login/')
+@login_required(login_url='/login/')
 def add_post(request):
     post_form = AddPost()
     if request.method == 'POST':
