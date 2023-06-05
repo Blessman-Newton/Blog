@@ -12,9 +12,12 @@ body{
 }
 form{
     position: absolute;
-    top: 7%;
-    
-    
+    top: 7%;    
+}
+.message{
+    background-color: red;
+    opacity: 0.3;
+    color: white;
 }
 label{
     font-size: 14px;
