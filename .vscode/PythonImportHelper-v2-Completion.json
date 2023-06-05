@@ -49,6 +49,118 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -146,6 +258,62 @@
     },
     {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -670,6 +838,96 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0011_alter_post_username",
+        "description": "blog.migrations.0011_alter_post_username",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('blog', '0010_alter_post_body_text'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='username',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "blog.migrations.0011_alter_post_username",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0012_alter_post_img",
+        "description": "blog.migrations.0012_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0011_alter_post_username'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(blank=True, null=True, upload_to=''),\n        ),",
+        "detail": "blog.migrations.0012_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0013_alter_post_img",
+        "description": "blog.migrations.0013_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0012_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(null=True, upload_to=''),\n        ),",
+        "detail": "blog.migrations.0013_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0014_alter_post_img",
+        "description": "blog.migrations.0014_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0013_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(blank=True, null=True, upload_to=''),\n        ),",
+        "detail": "blog.migrations.0014_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0015_alter_post_img",
+        "description": "blog.migrations.0015_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0014_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(upload_to='images'),\n        ),",
+        "detail": "blog.migrations.0015_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0016_alter_post_img",
+        "description": "blog.migrations.0016_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0015_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(height_field=30, upload_to='images', width_field=70),\n        ),",
+        "detail": "blog.migrations.0016_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0017_alter_post_img",
+        "description": "blog.migrations.0017_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0016_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(height_field=9, max_length=5, upload_to='images', width_field=10),\n        ),",
+        "detail": "blog.migrations.0017_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0018_alter_post_img",
+        "description": "blog.migrations.0018_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0017_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(upload_to='images'),\n        ),",
+        "detail": "blog.migrations.0018_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0019_alter_post_img",
+        "description": "blog.migrations.0019_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0018_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(max_length=50, upload_to='images'),\n        ),",
+        "detail": "blog.migrations.0019_alter_post_img",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0020_alter_post_img",
+        "description": "blog.migrations.0020_alter_post_img",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0019_alter_post_img'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='img',\n            field=models.ImageField(height_field=50, max_length=50, upload_to='images', width_field=70),\n        ),",
+        "detail": "blog.migrations.0020_alter_post_img",
+        "documentation": {}
+    },
+    {
         "label": "BlogConfig",
         "kind": 6,
         "importPath": "blog.apps",
@@ -683,7 +941,16 @@
         "kind": 6,
         "importPath": "blog.form",
         "description": "blog.form",
-        "peekOfCode": "class AddPost(forms.ModelForm):\n    \"\"\"Form definition for MODELNAME.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for MODELNAMEform.\"\"\"\n        model = Post\n        fields = ('headline','body_text')\n        widgets = {\n            'body_text': forms.Textarea(attrs={\"placeholder\":'Post Here',\n                                               'style':'width: 100vh; height: 50vh'})\n        }",
+        "peekOfCode": "class AddPost(forms.ModelForm):\n    \"\"\"Form definition for MODELNAME.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for MODELNAMEform.\"\"\"\n        model = Post\n        fields = ['headline','body_text','img']\n        widgets = {\n            'body_text': forms.Textarea(attrs={\"placeholder\":'Post Here',\n                                               'style':'width: 100vh; height: 50vh'})\n        }",
+        "detail": "blog.form",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "kind": 6,
+        "importPath": "blog.form",
+        "description": "blog.form",
+        "peekOfCode": "class Image(forms.ModelForm):\n    \"\"\"Form definition for MODELNAME.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for MODELNAMEform.\"\"\"\n        model = Post\n        fields = ['headline','body_text','img']",
         "detail": "blog.form",
         "documentation": {}
     },
@@ -692,7 +959,7 @@
         "kind": 6,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "class Post(models.Model): \n\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "class Post(models.Model): \n\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -701,7 +968,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=False, blank=False)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "\tusername = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)\n\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -710,7 +977,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "\theadline = models.CharField(max_length=255, null=True, blank=False)\n\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -719,7 +986,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "\tbody_text = models.TextField(max_length=10000, null=True, blank=False)\n\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -728,7 +995,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "\tpub_date = models.DateTimeField(default=datetime.now)\n\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -737,7 +1004,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "\tmod_date = models.DateField(default=date.today)\n\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -746,7 +1013,7 @@
         "kind": 5,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "\timg = models.ImageField(null=False,  blank=False)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
+        "peekOfCode": "\timg = models.ImageField(upload_to='images', height_field=None, width_field=None, max_length=50)\n \t#image = models.ImageField(upload_to='images', height_field=30%, width_field=70%, max_length=100%)\n\tnumber_of_comments = models.IntegerField(default=0)\n\tdef __str__(self):\n\t\treturn self.headline",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -773,7 +1040,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def index(request):\n\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\n@login_required(login_url='/login/')\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']",
+        "peekOfCode": "def index(request):\n    posts = Post.objects.all()\n    uploadimage  = Image(request.POST, request.FILES)  \n    return render(request, 'index.html', {'posts':posts, 'uploadimage':uploadimage})\n\"\"\"def index(request):\n\tposts = Post.objects.all()\n    uploadimage = Image(request.POST,\n                        request.FILES)\n    return render(request, 'index.html', {'posts':posts,\n                                          'uploadimage':uploadimage})\"\"\"",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -791,7 +1058,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']\n        password = request.POST['password']\n        password2 = request.POST['password2']\n        if password == password2:\n            if User.objects.filter(email=email).exists():\n                message.info(\"Email already exist\")\n                return redirect('login')",
+        "peekOfCode": "def register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']\n        password = request.POST['password']\n        password2 = request.POST['password2']\n        if password == password2:\n            if len(password) <= 8:\n                messages.info(request, \"password is too short\")\n                return redirect('register')",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -809,7 +1076,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        post_form = AddPost(request.POST)\n        if post_form.is_valid():\n            post_form.save()\n    return render(request, 'add_post.html', {'post_form':post_form})\n@login_required(login_url='/login/')\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)",
+        "peekOfCode": "def add_post(request):\n    post_form = AddPost()\n    if request.method == 'POST':\n        post_form = AddPost(request.POST, request.FILES)\n        if post_form.is_valid():\n            post_form.save()\n    return render(request, 'add_post.html', {'post_form':post_form})\n@login_required(login_url='/login/')\ndef update(request, pk):\n    call_post = Post.objects.get(id=pk)",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -854,7 +1121,7 @@
         "kind": 5,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "\tposts = Post.objects.all()\n\treturn render(request, 'index.html', {'posts':posts})\n@login_required(login_url='/login/')\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']",
+        "peekOfCode": "\tposts = Post.objects.all()\n    uploadimage = Image(request.POST,\n                        request.FILES)\n    return render(request, 'index.html', {'posts':posts,\n                                          'uploadimage':uploadimage})\"\"\"\n@login_required(login_url='/login/')\ndef post(request, pk):\n\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -863,7 +1130,7 @@
         "kind": 5,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']\n        password = request.POST['password']\n        password2 = request.POST['password2']\n        if password == password2:\n            if User.objects.filter(email=email).exists():",
+        "peekOfCode": "\tblog = Post.objects.get(id=pk)\n\treturn render(request, 'post.html', {'blog':blog})\ndef register(request):\n    if request.method == \"POST\":\n        username = request.POST['username']\n        email = request.POST['email']\n        password = request.POST['password']\n        password2 = request.POST['password2']\n        if password == password2:\n            if len(password) <= 8:",
         "detail": "blog.views",
         "documentation": {}
     },
