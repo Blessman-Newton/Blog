@@ -224,7 +224,7 @@ em{
 	left: 650px;
 
 }
-#bars{
+#s{
 	display: none;
 }
 
@@ -416,9 +416,11 @@ border: 3px solid white ;
 .btn{
 	display: none;
 }
-
-
-
+.body_content .post-img{
+	width: 400px;
+	height: 150px;
+	position: absolute;
+}
 
 
 
