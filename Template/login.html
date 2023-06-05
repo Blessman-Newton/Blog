@@ -63,6 +63,9 @@ input[type="submit"]:hover {
     </style>
 </head>
 <body>
+  {% for message in messages %}
+   <h4 class="message">{{message}}</h4>
+  {% endfor %}
     <div class="form">
         <form method="POST">
             {% csrf_token %}
