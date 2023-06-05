@@ -4,15 +4,24 @@ from django.contrib.auth.models import User , auth
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 from .models import Post
-from .form import AddPost
+from .form import AddPost, Image
 from django.contrib import messages
 # Create your views here.
 
 
-
 def index(request):
+    posts = Post.objects.all()
+    uploadimage  = Image(request.POST, request.FILES)  
+    return render(request, 'index.html', {'posts':posts, 'uploadimage':uploadimage})
+
+"""def index(request):
 	posts = Post.objects.all()
-	return render(request, 'index.html', {'posts':posts})
+    uploadimage = Image(request.POST,
+                        request.FILES)
+    return render(request, 'index.html', {'posts':posts,
+                                          'uploadimage':uploadimage})"""
+                                          
+
 
 @login_required(login_url='/login/')
 def post(request, pk):
@@ -28,18 +37,21 @@ def register(request):
         password = request.POST['password']
         password2 = request.POST['password2']
         if password == password2:
-            if User.objects.filter(email=email).exists():
-                message.info("Email already exist")
+            if len(password) <= 8:
+                messages.info(request, "password is too short")
+                return redirect('register')
+            elif User.objects.filter(email=email).exists():
+                messages.info(request, "Email already exist")
                 return redirect('login')
             elif User.objects.filter(username=username).exists():
-                messagse.info(request, "User already exist")
+                messages.info(request, "User already exist")
                 return redirect('login')
             else:
                 user = User.objects.create_user(username=username, email=email, password=password)
                 user.save()
                 return redirect('login')
         else:
-            messages.info("Password do not match")
+            messages.info(request, "Password do not match")
             return redirect('register')
     return render(request,'register.html')
 
@@ -58,7 +70,7 @@ def login(request):
         
         else:
             messages.info(request, "Invaild Credentials")
-            return redirect('register')
+            
         
     return render(request, 'login.html')
 
@@ -67,7 +79,7 @@ def login(request):
 def add_post(request):
     post_form = AddPost()
     if request.method == 'POST':
-        post_form = AddPost(request.POST)
+        post_form = AddPost(request.POST, request.FILES)
         if post_form.is_valid():
             post_form.save()
     return render(request, 'add_post.html', {'post_form':post_form})
