@@ -16,14 +16,17 @@
 	</style>
 </head>
 <body>
+	{% for message in messages %}
+		<h4 class="message" >{{message}}</h4>
+	{% endfor %}
 	<form method="POST"> 
 		{% csrf_token %}
 		<label>Full Name</label>
-		<span id="symbols" class="material-symbols-outlined">person</span><input class="input" type="text" name="username"><br>
+		<span id="symbols" class="material-symbols-outlined">person</span><input class="input" type="text" name="username" required><br>
 		<label>Email</label>
-		<span id="symbols" class="material-symbols-outlined">mail</span><input class="input"type="" name="email"><br>
+		<span id="symbols" class="material-symbols-outlined">mail</span><input class="input"type="" name="email" required><br>
 		<label>Password</label>
-		<span id="symbols" class="material-symbols-outlined">lock</span><input class="input"type="password" name="password"><br>
+		<span id="symbols" class="material-symbols-outlined">lock</span><input class="input"type="password" name="password" required><br>
 		<label>Confirm Password</label>
 		<span id="symbols" class="material-symbols-outlined">lock</span><input class="input"type="password" name="password2"><br><br>
 		<input class="button" type="submit" value="Register">
