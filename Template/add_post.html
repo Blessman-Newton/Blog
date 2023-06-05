@@ -38,11 +38,11 @@
 </head>
 <body>
     <h1>Add Post</h1>
-    <form action="" method="post">
+    <form action="" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         <input type="button" value="Click here">
-        {{post_form.as_p}}
-        <input type="submit" value="ADD POST">
+        {{ post_form }}
+        <input type="submit" value="Upload">
     </form>
 </body>
 </html>
